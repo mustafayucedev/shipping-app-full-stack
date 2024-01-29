@@ -1,6 +1,6 @@
-import httpClient from "../../service/axios"
-import router from "../../router";
-import { notification } from "../../plugins/notification";
+import httpClient from "@/service/axios"
+import router from "@/router";
+import { notification } from "@/plugins/notification";
 
 export default {
 

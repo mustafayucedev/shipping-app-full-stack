@@ -1,14 +1,14 @@
 <script setup>
-    import IconLocation from "../../assets/images/icon-location.svg";
-    import IconCar from "../../assets/images/icon-car.svg";
-    import IconWeight from "../../assets/images/icon-weight.svg";
-    import IconPhone from "../../assets/images/icon-phone.svg";
-    import IconPayment from "../../assets/images/icon-payment.svg";
+import IconLocation from "@/assets/images/icon-location.svg";
+import IconCar from "@/assets/images/icon-car.svg";
+import IconWeight from "@/assets/images/icon-weight.svg";
+import IconPhone from "@/assets/images/icon-phone.svg";
+import IconPayment from "@/assets/images/icon-payment.svg";
 
-    import { dateFormat } from "../../plugins/moment";
+import { dateFormat } from "@/plugins/moment";
 
-    import { useStore } from "../../stores/index"
-    const store = useStore();
+import { useStore } from "@/stores/index"
+const store = useStore();
 </script>
 
 <template>
@@ -43,7 +43,7 @@
         </ul>
         <div class="flex flex-wrap gap-3">
             <div class="border-2 border-black rounded-full py-1 px-5 text-sm font-medium"> {{ post.price }} ₺ </div>
-            <a :href="store.getterPhoneLink(post)" class="border-2 border-black bg-black rounded-full py-1 px-5 text-sm font-medium"> {{ $t(`call`) }} </a>
+            <a :href="store.getterPhoneLink(post)" class="border-2 border-black rounded-full py-1 px-5 text-sm font-medium"> {{ $t(`call`) }} </a>
         </div>
         <div class="text-xs mt-4"> Oluşturma Tarihi : <strong>{{ dateFormat(post.createdDate) }}</strong> </div>
     </div>

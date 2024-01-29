@@ -1,8 +1,8 @@
 <script setup>
-    import { defineProps } from 'vue';
-    
-    const { phone } = defineProps(['name', 'description', 'city', 'phone']);
-    const phoneFormat = `tel:${phone}`
+import { defineProps } from 'vue';
+
+const { phone } = defineProps(['name', 'description', 'city', 'phone']);
+const phoneFormat = `tel:${phone}`
 </script>
 
 <template>

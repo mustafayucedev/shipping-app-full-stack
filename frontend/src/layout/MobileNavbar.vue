@@ -1,12 +1,12 @@
 <script setup>
-    import Navbar from "./Navbar.vue";
-    import HeaderButtons from "../components/Shared/HeaderButtons.vue";
-    
-    import IconHamburger from "../assets/images/icon-hamburger.svg";
-    import IconClose from "../assets/images/icon-close.svg";
-    
-    import { useStore } from "../stores/index";
-    const store = useStore();
+import Navbar from "@/layout/Navbar.vue";
+import HeaderButtons from "@/components/Shared/HeaderButtons.vue";
+
+import IconHamburger from "@/assets/images/icon-hamburger.svg";
+import IconClose from "@/assets/images/icon-close.svg";
+
+import { useStore } from "@/stores/index";
+const store = useStore();
 </script>
 
 <template>

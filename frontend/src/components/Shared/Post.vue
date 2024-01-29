@@ -1,5 +1,5 @@
 <script setup>
-    import PostItem from './PostItem.vue';
+import PostItem from '@/components/Shared/PostItem.vue';
 </script>
 
 <template>

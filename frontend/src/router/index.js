@@ -1,14 +1,7 @@
-
 import { createRouter , createWebHistory } from "vue-router";
-import { useStore } from "../stores/index";
+import { useStore } from "@/stores/index";
 
-import Home from "../views/Home.vue";
-import Driver from "../views/Driver.vue";
-import Company from "../views/Company.vue";
-import Login from "../views/Login.vue";
-import Register from "../views/Register.vue";
-import PostCreate from "../views/PostCreate.vue";
-import NotFound from "../views/NotFound.vue";
+import Home from "@/views/Home/index.vue";
 
 const routes = [
     {
@@ -19,32 +12,32 @@ const routes = [
     {
         path: "/driver",
         name: "Driver",
-        component: Driver
+        component: () => import('@/views/Driver/index.vue')
     },
     {
         path: "/company",
         name: "Company",
-        component: Company
+        component: () => import('@/views/Company/index.vue')
     },
     {
         path: "/login",
         name: "Login",
-        component: Login
+        component: () => import('@/views/Auth/Login.vue')
     },
     {
         path: "/register",
         name: "Register",
-        component: Register
+        component: () => import('@/views/Auth/Register.vue')
     },
     {
         path: "/post-create",
         name: "PostCreate",
-        component: PostCreate
+        component: () => import('@/views/PostCreate/index.vue')
     },
     {
         path: "/:catchAll(.*)",
         name: "NotFound",
-        component: NotFound
+        component: () => import('@/views/NotFound/index.vue')
     }
 ]
 

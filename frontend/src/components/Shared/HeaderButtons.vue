@@ -1,11 +1,11 @@
 <script setup>
-    import { ref } from "vue";
-    import { launguage } from '../../plugins/i18n';
-    import router from '../../router';
-    import { useStore } from "../../stores/index";
-    const store = useStore();
+import { ref } from "vue";
+import { launguage } from "@/plugins/i18n";
+import router from '@/router';
+import { useStore } from "@/stores/index";
+const store = useStore();
 
-    const unLogin = ref([
+const unLogin = ref([
     {
         name: "login",
         href: "/login",

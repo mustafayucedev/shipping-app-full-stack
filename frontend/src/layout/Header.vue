@@ -1,9 +1,8 @@
 <script setup>
-import Logo from "../components/Shared/Logo.vue";
-import Navbar from "./Navbar.vue";
-import HeaderButtons from "../components/Shared/HeaderButtons.vue";
-import MobileNavbar from "../layout/MobileNavbar.vue";
-
+import Logo from "@/components/Shared/Logo.vue";
+import Navbar from "@/layout/Navbar.vue";
+import HeaderButtons from "@/components/Shared/HeaderButtons.vue";
+import MobileNavbar from "@/layout/MobileNavbar.vue";
 </script>
 
 <template>

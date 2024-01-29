@@ -1,21 +1,20 @@
 <script setup>
-    import { ref } from 'vue';
+import { ref } from 'vue';
 
-    const navbar = ref([
-        {
-            name: "homePage",
-            href: "/"
-        },
-        {
-            name: "shippingCompany",
-            href: "/company"
-        },
-        {
-            name: "popularDriver",
-            href: "/driver"
-        },
-    ])
-
+const navbar = ref([
+    {
+        name: "homePage",
+        href: "/"
+    },
+    {
+        name: "shippingCompany",
+        href: "/company"
+    },
+    {
+        name: "popularDriver",
+        href: "/driver"
+    },
+])
 </script>
 
 <template>
