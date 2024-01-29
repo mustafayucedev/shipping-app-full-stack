@@ -49,7 +49,7 @@
      ```
    - Dökümantasyon: [Moment.js Dökümantasyonu](https://momentjs.com/docs/)
 
-   7. **Vue 3 Toastify**
+8. **Vue 3 Toastify**
    - Kurulum: 
      ```bash
      npm install vue3-toastify
