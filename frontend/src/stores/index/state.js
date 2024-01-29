@@ -23,7 +23,7 @@ export default () => {
         postCreate: {
             title: null,
             fromWhere: null,
-            toWhere: "null",
+            toWhere: null,
             carType: null,
             weight: null,
             paymentMethod: null,

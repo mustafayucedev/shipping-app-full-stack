@@ -49,6 +49,13 @@
      ```
    - Dökümantasyon: [Moment.js Dökümantasyonu](https://momentjs.com/docs/)
 
+   7. **Vue 3 Toastify**
+   - Kurulum: 
+     ```bash
+     npm install vue3-toastify
+     ```
+   - Dökümantasyon: [Vue 3 Toastify Dökümantasyonu](https://www.npmjs.com/package/vue3-toastify)
+
 ## Backend Teknolojileri ve Paketleri
 
 1. **Node.js**

@@ -10,7 +10,6 @@ import Register from "../views/Register.vue";
 import PostCreate from "../views/PostCreate.vue";
 import NotFound from "../views/NotFound.vue";
 
-
 const routes = [
     {
         path: '/',
